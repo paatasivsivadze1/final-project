@@ -66,6 +66,7 @@ class Main:
 
 
 class CreateTabs(Front.BasePage):
+    """ქმნის ტაბებს"""
     def __init__(self, app=None, main_obj=None):
         super().__init__(app)
 
